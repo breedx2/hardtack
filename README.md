@@ -7,7 +7,8 @@ It's very early in the development/idea phase.
 * teensy
 * small cap touch tft
 * audio codec - 2 ins, 2 outs
-* 60s of audio memory
+* 2 cv inputs
+* 60s of audio SPI RAM
 * peripherals: 2 rotary encoders, 2 buttons, 2 switches
 
 ##Attribution:
