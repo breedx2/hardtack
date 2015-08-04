@@ -48,45 +48,569 @@ $EndDescr
 $Comp
 L Teensy-LC U1
 U 1 1 55B4773F
-P 5900 3550
-F 0 "U1" H 5950 4600 60  0000 C CNN
-F 1 "Teensy-LC" H 6000 5050 60  0000 C CNN
-F 2 "" H 6000 3550 60  0000 C CNN
-F 3 "" H 6000 3550 60  0000 C CNN
-	1    5900 3550
+P 7150 2800
+F 0 "U1" H 7200 4450 60  0000 C CNN
+F 1 "Teensy-LC" H 7250 4300 60  0000 C CNN
+F 2 "" H 7250 2800 60  0000 C CNN
+F 3 "" H 7250 2800 60  0000 C CNN
+	1    7150 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR?
 U 1 1 55B479B7
-P 4050 1500
-F 0 "#PWR?" H 4050 1350 50  0001 C CNN
-F 1 "+5V" H 4050 1640 50  0000 C CNN
-F 2 "" H 4050 1500 60  0000 C CNN
-F 3 "" H 4050 1500 60  0000 C CNN
-	1    4050 1500
+P 5200 750
+F 0 "#PWR?" H 5200 600 50  0001 C CNN
+F 1 "+5V" H 5200 890 50  0000 C CNN
+F 2 "" H 5200 750 60  0000 C CNN
+F 3 "" H 5200 750 60  0000 C CNN
+	1    5200 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR?
 U 1 1 55B479CC
-P 4000 5400
-F 0 "#PWR?" H 4000 5150 50  0001 C CNN
-F 1 "GND" H 4000 5250 50  0000 C CNN
-F 2 "" H 4000 5400 60  0000 C CNN
-F 3 "" H 4000 5400 60  0000 C CNN
-	1    4000 5400
+P 7900 5100
+F 0 "#PWR?" H 7900 4850 50  0001 C CNN
+F 1 "GND" H 7900 4950 50  0000 C CNN
+F 2 "" H 7900 5100 60  0000 C CNN
+F 3 "" H 7900 5100 60  0000 C CNN
+	1    7900 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L CS4270 U??
+L CS4270 U2
 U 1 1 55B48313
-P 1950 2800
-F 0 "U??" H 2400 3450 60  0000 C CNN
-F 1 "CS4270" H 1900 3450 60  0000 C CNN
-F 2 "" H 1950 2800 60  0000 C CNN
-F 3 "" H 1950 2800 60  0000 C CNN
-	1    1950 2800
+P 2700 1800
+F 0 "U2" H 3150 2450 60  0000 C CNN
+F 1 "CS4270" H 2650 2450 60  0000 C CNN
+F 2 "" H 2700 1800 60  0000 C CNN
+F 3 "" H 2700 1800 60  0000 C CNN
+	1    2700 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L 23LC1024 U3
+U 1 1 55B507D1
+P 1700 5700
+F 0 "U3" H 1500 6100 60  0000 C CNN
+F 1 "23LC1024" H 1500 5350 60  0000 C CNN
+F 2 "" H 1700 5700 60  0000 C CNN
+F 3 "" H 1700 5700 60  0000 C CNN
+	1    1700 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 23LC1024 U5
+U 1 1 55B50938
+P 4600 5700
+F 0 "U5" H 4400 6100 60  0000 C CNN
+F 1 "23LC1024" H 4400 5350 60  0000 C CNN
+F 2 "" H 4600 5700 60  0000 C CNN
+F 3 "" H 4600 5700 60  0000 C CNN
+	1    4600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 23LC1024 U7
+U 1 1 55B509AB
+P 3150 7200
+F 0 "U7" H 2950 7600 60  0000 C CNN
+F 1 "23LC1024" H 2950 6850 60  0000 C CNN
+F 2 "" H 3150 7200 60  0000 C CNN
+F 3 "" H 3150 7200 60  0000 C CNN
+	1    3150 7200
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	800  4850 900  4750
+Wire Bus Line
+	850  4750 5450 4750
+Wire Wire Line
+	950  5600 800  5600
+Entry Wire Line
+	2300 4850 2400 4750
+Wire Wire Line
+	800  5600 800  4850
+Wire Wire Line
+	2300 4850 2300 5600
+Wire Wire Line
+	2300 5600 2400 5600
+Entry Wire Line
+	3750 4850 3850 4750
+Wire Wire Line
+	3750 4850 3750 5600
+Wire Wire Line
+	3750 5600 3850 5600
+Entry Wire Line
+	3650 4850 3750 4750
+Entry Wire Line
+	3600 4850 3700 4750
+Wire Wire Line
+	3650 4850 3650 5900
+Wire Wire Line
+	3650 5900 3500 5900
+Wire Wire Line
+	3600 4850 3600 5750
+Wire Wire Line
+	3600 5750 3500 5750
+Entry Wire Line
+	2200 4850 2300 4750
+Entry Wire Line
+	2150 4850 2250 4750
+Wire Wire Line
+	2200 4850 2200 5900
+Wire Wire Line
+	2200 5900 2050 5900
+Wire Wire Line
+	2150 4850 2150 5750
+Wire Wire Line
+	2150 5750 2050 5750
+Entry Wire Line
+	5200 4850 5300 4750
+Entry Wire Line
+	5150 4850 5250 4750
+Wire Wire Line
+	5200 4850 5200 5900
+Wire Wire Line
+	5200 5900 4950 5900
+Wire Wire Line
+	5150 4850 5150 5750
+Wire Wire Line
+	5150 5750 4950 5750
+$Comp
+L C_Small C1
+U 1 1 55B53DC8
+P 1750 5200
+F 0 "C1" H 1760 5270 50  0000 L CNN
+F 1 "C_Small" H 1760 5120 50  0000 L CNN
+F 2 "" H 1750 5200 60  0000 C CNN
+F 3 "" H 1750 5200 60  0000 C CNN
+	1    1750 5200
+	0    -1   -1   0   
+$EndComp
+Entry Wire Line
+	2100 4850 2200 4750
+Entry Wire Line
+	2100 4850 2200 4750
+Entry Wire Line
+	750  4850 850  4750
+Wire Wire Line
+	750  4850 750  6000
+Wire Wire Line
+	750  5900 950  5900
+Wire Wire Line
+	2100 4850 2100 5600
+Wire Wire Line
+	2100 5450 2050 5450
+Wire Wire Line
+	2100 5600 2050 5600
+Connection ~ 2100 5450
+$Comp
+L 23LC1024 U4
+U 1 1 55B508FF
+P 3150 5700
+F 0 "U4" H 2950 6100 60  0000 C CNN
+F 1 "23LC1024" H 2950 5350 60  0000 C CNN
+F 2 "" H 3150 5700 60  0000 C CNN
+F 3 "" H 3150 5700 60  0000 C CNN
+	1    3150 5700
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	2250 4850 2350 4750
+Wire Wire Line
+	2250 4850 2250 5900
+Wire Wire Line
+	2250 5900 2400 5900
+Entry Wire Line
+	3700 4850 3800 4750
+Wire Wire Line
+	3700 4850 3700 5900
+Wire Wire Line
+	3700 5900 3850 5900
+Wire Wire Line
+	1850 5200 2100 5200
+Connection ~ 2100 5200
+Wire Wire Line
+	1650 5200 750  5200
+Connection ~ 750  5200
+$Comp
+L C_Small C2
+U 1 1 55B548F2
+P 3200 5200
+F 0 "C2" H 3100 5100 50  0000 L CNN
+F 1 "C_Small" H 2900 5300 50  0000 L CNN
+F 2 "" H 3200 5200 60  0000 C CNN
+F 3 "" H 3200 5200 60  0000 C CNN
+	1    3200 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C3
+U 1 1 55B5497F
+P 4650 5200
+F 0 "C3" H 4550 5100 50  0000 L CNN
+F 1 "C_Small" H 4300 5300 50  0000 L CNN
+F 2 "" H 4650 5200 60  0000 C CNN
+F 3 "" H 4650 5200 60  0000 C CNN
+	1    4650 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C6
+U 1 1 55B549B9
+P 4650 6700
+F 0 "C6" H 4550 6600 50  0000 L CNN
+F 1 "C_Small" H 4350 6800 50  0000 L CNN
+F 2 "" H 4650 6700 60  0000 C CNN
+F 3 "" H 4650 6700 60  0000 C CNN
+	1    4650 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C5
+U 1 1 55B549DE
+P 3200 6700
+F 0 "C5" H 3100 6600 50  0000 L CNN
+F 1 "C_Small" H 2900 6800 50  0000 L CNN
+F 2 "" H 3200 6700 60  0000 C CNN
+F 3 "" H 3200 6700 60  0000 C CNN
+	1    3200 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L C_Small C4
+U 1 1 55B54A06
+P 1750 6700
+F 0 "C4" H 1650 6600 50  0000 L CNN
+F 1 "C_Small" H 1450 6800 50  0000 L CNN
+F 2 "" H 1750 6700 60  0000 C CNN
+F 3 "" H 1750 6700 60  0000 C CNN
+	1    1750 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L 23LC1024 U6
+U 1 1 55B5095C
+P 1700 7200
+F 0 "U6" H 1500 7600 60  0000 C CNN
+F 1 "23LC1024" H 1500 6850 60  0000 C CNN
+F 2 "" H 1700 7200 60  0000 C CNN
+F 3 "" H 1700 7200 60  0000 C CNN
+	1    1700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 23LC1024 U8
+U 1 1 55B50A35
+P 4600 7200
+F 0 "U8" H 4400 7600 60  0000 C CNN
+F 1 "23LC1024" H 4400 6850 60  0000 C CNN
+F 2 "" H 4600 7200 60  0000 C CNN
+F 3 "" H 4600 7200 60  0000 C CNN
+	1    4600 7200
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	5450 4750 5450 6300
+Wire Bus Line
+	5450 6300 850  6300
+Entry Wire Line
+	3550 4850 3650 4750
+Wire Wire Line
+	3550 4850 3550 5600
+Wire Wire Line
+	3550 5450 3500 5450
+Wire Wire Line
+	3550 5600 3500 5600
+Connection ~ 3550 5450
+Wire Wire Line
+	3550 5200 3300 5200
+Connection ~ 3550 5200
+Wire Wire Line
+	3100 5200 2250 5200
+Connection ~ 2250 5200
+Entry Wire Line
+	5100 4850 5200 4750
+Wire Wire Line
+	5100 4850 5100 5450
+Wire Wire Line
+	5100 5450 4950 5450
+Wire Wire Line
+	4750 5200 5100 5200
+Connection ~ 5100 5200
+Wire Wire Line
+	4550 5200 3700 5200
+Connection ~ 3700 5200
+Entry Wire Line
+	750  6400 850  6300
+Entry Wire Line
+	800  6400 900  6300
+Wire Wire Line
+	750  6400 750  7400
+Wire Wire Line
+	750  7400 950  7400
+Wire Wire Line
+	800  6400 800  7100
+Wire Wire Line
+	800  7100 950  7100
+Entry Wire Line
+	2100 6400 2200 6300
+Entry Wire Line
+	2150 6400 2250 6300
+Entry Wire Line
+	2200 6400 2300 6300
+Entry Wire Line
+	2250 6400 2350 6300
+Entry Wire Line
+	2300 6400 2400 6300
+Wire Wire Line
+	2100 6950 2050 6950
+Wire Wire Line
+	2100 6400 2100 6950
+Wire Wire Line
+	2300 6400 2300 7100
+Wire Wire Line
+	2300 7100 2400 7100
+Wire Wire Line
+	2250 6400 2250 7400
+Wire Wire Line
+	2250 7400 2400 7400
+Wire Wire Line
+	2200 6400 2200 7400
+Wire Wire Line
+	2200 7400 2050 7400
+Wire Wire Line
+	2150 6400 2150 7250
+Wire Wire Line
+	2150 7250 2050 7250
+Wire Wire Line
+	1850 6700 2100 6700
+Connection ~ 2100 6700
+Wire Wire Line
+	1650 6700 750  6700
+Connection ~ 750  6700
+Entry Wire Line
+	3750 6400 3850 6300
+Entry Wire Line
+	3550 6400 3650 6300
+Entry Wire Line
+	3600 6400 3700 6300
+Entry Wire Line
+	3650 6400 3750 6300
+Entry Wire Line
+	3700 6400 3800 6300
+Wire Wire Line
+	3750 6400 3750 7100
+Wire Wire Line
+	3750 7100 3850 7100
+Wire Wire Line
+	3700 6400 3700 7400
+Wire Wire Line
+	3700 7400 3850 7400
+Wire Wire Line
+	3650 6400 3650 7400
+Wire Wire Line
+	3650 7400 3500 7400
+Wire Wire Line
+	3600 6400 3600 7250
+Wire Wire Line
+	3600 7250 3500 7250
+Wire Wire Line
+	3550 6400 3550 7100
+Wire Wire Line
+	3550 6950 3500 6950
+Wire Wire Line
+	3550 6700 3300 6700
+Connection ~ 3550 6700
+Wire Wire Line
+	3550 7100 3500 7100
+Connection ~ 3550 6950
+Wire Wire Line
+	3100 6700 2250 6700
+Connection ~ 2250 6700
+Entry Wire Line
+	5200 6400 5300 6300
+Entry Wire Line
+	5150 6400 5250 6300
+Entry Wire Line
+	5100 6400 5200 6300
+Wire Wire Line
+	5200 6400 5200 7400
+Wire Wire Line
+	5200 7400 4950 7400
+Wire Wire Line
+	5150 6400 5150 7250
+Wire Wire Line
+	5150 7250 4950 7250
+Wire Wire Line
+	5100 6400 5100 7100
+Wire Wire Line
+	5100 6950 4950 6950
+Wire Wire Line
+	5100 7100 4950 7100
+Connection ~ 5100 6950
+Wire Wire Line
+	4750 6700 5100 6700
+Connection ~ 5100 6700
+Wire Wire Line
+	4550 6700 3700 6700
+Connection ~ 3700 6700
+Text Label 850  4950 1    30   ~ 0
+MISO
+Text Label 2350 4950 1    30   ~ 0
+MISO
+Text Label 3800 4950 1    30   ~ 0
+MISO
+Text Label 5250 4950 1    30   ~ 0
+MOSI
+Text Label 850  6500 1    30   ~ 0
+MISO
+Text Label 2350 6500 1    30   ~ 0
+MISO
+Text Label 3800 6500 1    30   ~ 0
+MISO
+Text Label 5250 6500 1    30   ~ 0
+MOSI
+Text Label 2100 4950 1    30   ~ 0
+Vcc
+Text Label 3550 4950 1    30   ~ 0
+Vcc
+Text Label 750  4950 1    30   ~ 0
+Vss
+Text Label 5100 4950 1    30   ~ 0
+Vcc
+Text Label 5100 6500 1    30   ~ 0
+Vcc
+Text Label 3550 6500 1    30   ~ 0
+Vcc
+Text Label 2100 6500 1    30   ~ 0
+Vcc
+Text Label 750  6500 1    30   ~ 0
+Vcc
+$Comp
+L +5V #PWR?
+U 1 1 55B595AC
+P 1950 5050
+F 0 "#PWR?" H 1950 4900 50  0001 C CNN
+F 1 "+5V" H 1950 5190 50  0000 C CNN
+F 2 "" H 1950 5050 60  0000 C CNN
+F 3 "" H 1950 5050 60  0000 C CNN
+	1    1950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55B595DC
+P 750 6000
+F 0 "#PWR?" H 750 5750 50  0001 C CNN
+F 1 "GND" H 750 5850 50  0000 C CNN
+F 2 "" H 750 6000 60  0000 C CNN
+F 3 "" H 750 6000 60  0000 C CNN
+	1    750  6000
+	1    0    0    -1  
+$EndComp
+Connection ~ 750  5900
+Wire Wire Line
+	1950 5050 1950 5200
+Connection ~ 1950 5200
+Text Label 2150 4950 1    30   ~ 0
+SCK
+Text Label 3600 4950 1    30   ~ 0
+SCK
+Text Label 5150 4950 1    30   ~ 0
+SCK
+Text Label 3650 4950 1    30   ~ 0
+MOSI
+Text Label 3750 4950 1    30   ~ 0
+Vss
+Text Label 2300 4950 1    30   ~ 0
+Vss
+Text Label 2200 4950 1    30   ~ 0
+MOSI
+Text Label 2150 6500 1    30   ~ 0
+SCK
+Text Label 2200 6500 1    30   ~ 0
+MOSI
+Text Label 2300 6500 1    30   ~ 0
+Vss
+Text Label 3600 6500 1    30   ~ 0
+SCK
+Text Label 3650 6500 1    30   ~ 0
+MOSI
+Text Label 3750 6500 1    30   ~ 0
+Vss
+Text Label 5150 6500 1    30   ~ 0
+SCK
+$Comp
+L +5V #PWR?
+U 1 1 55C05CDA
+P 1150 4650
+F 0 "#PWR?" H 1150 4500 50  0001 C CNN
+F 1 "+5V" H 1150 4790 50  0000 C CNN
+F 2 "" H 1150 4650 60  0000 C CNN
+F 3 "" H 1150 4650 60  0000 C CNN
+	1    1150 4650
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1050 4750 1150 4650
+Text Label 1150 4700 0    30   ~ 0
+Vcc
+$Comp
+L adafruit_2.8in_tft_capsense U9
+U 1 1 55C0725A
+P 10450 2300
+F 0 "U9" H 10450 1750 30  0000 C CNN
+F 1 "adafruit_2.8in_tft_capsense" H 10450 2900 30  0000 C CNN
+F 2 "" H 10550 2550 30  0000 C CNN
+F 3 "" H 10550 2550 30  0000 C CNN
+	1    10450 2300
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	5450 5900 9550 5900
+Entry Wire Line
+	9550 2550 9650 2450
+Wire Bus Line
+	9550 5900 9550 2550
+Wire Wire Line
+	9650 2450 9950 2450
+Entry Wire Line
+	9550 2650 9650 2550
+Wire Wire Line
+	9650 2550 9950 2550
+Entry Wire Line
+	9550 2750 9650 2650
+Entry Wire Line
+	9550 2850 9650 2750
+Wire Wire Line
+	9650 2650 9950 2650
+Wire Wire Line
+	9650 2750 9950 2750
+Text Label 9650 2500 0    30   ~ 0
+MOSi
+Text Label 9650 2600 0    30   ~ 0
+SCK
+Text Label 9650 2700 0    30   ~ 0
+Vcc
+Text Label 9650 2800 0    30   ~ 0
+Vss
+$Comp
+L C_Small C?
+U 1 1 55C09124
+P 9850 2900
+F 0 "C?" H 9860 2970 50  0000 L CNN
+F 1 "C_Small" H 9860 2820 50  0000 L CNN
+F 2 "" H 9850 2900 60  0000 C CNN
+F 3 "" H 9850 2900 60  0000 C CNN
+	1    9850 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9950 2750 9950 2900
+Wire Wire Line
+	9750 2900 9750 2650
+Connection ~ 9750 2650
 $EndSCHEMATC
